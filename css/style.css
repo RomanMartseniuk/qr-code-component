@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.code {
+  max-width: 320px;
+  height: 496px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 18px;
+}
+
+.code__img {
+  position: relative;
+  width: 288px;
+  height: 288px;
+  margin: 0px 15px;
+}
+.code__img img {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.code__title {
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 260px;
+  padding-top: 10px;
+  color: hsl(218, 44%, 22%);
+}
+
+.code__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 260px;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 15px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
